@@ -1,15 +1,18 @@
 <template>
-  <hello-world />
+  <div>
+    <Navbar />
+    Landing Page
+  </div>
 </template>
 
 <script>
-import HelloWorld from "../components/HelloWorld";
+import Navbar from "../components/Navbar.vue";
 
 export default {
   name: "HomeView",
 
   components: {
-    HelloWorld,
+    Navbar,
   },
 };
 </script>
