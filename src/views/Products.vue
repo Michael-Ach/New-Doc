@@ -4,7 +4,7 @@
     <v-container>
       <v-row class="pa-4">
         <v-col class="col-md-6 my-auto">
-          <p class="text-center text-h4">About Us</p>
+          <p class="text-center text-h4">Products - Under Construction</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
             assumenda molestiae ipsum. Omnis, voluptatum odit. Harum aspernatur
@@ -27,7 +27,7 @@ import Navbar from "../components/Navbar.vue";
 import Footer from "../components/Footer.vue";
 
 export default {
-  name: "AboutView",
+  name: "ProductsView",
   components: { Navbar, Footer },
 
   data() {
