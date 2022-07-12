@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import AdminNavbar from "./AdminNavbar.vue";
+import AdminNavbar from "../../components/admin/AdminNavbar.vue";
 export default {
   name: "OrdersPage",
   components: { AdminNavbar },
